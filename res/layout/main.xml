@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <RelativeLayout 
+    	android:padding="4dp"
+    	android:layout_width="fill_parent" 
+    	android:id="@+id/relativeLayout1"
+    	android:background="@drawable/background_topbar" 
+    	android:layout_height="40dip">
+        
+        <TextView 
+        	android:id="@+id/textTitle" 
+        	android:text="@string/app_name" 
+        	style="@style/textTitleStyle" />
+        	
+        <Button 
+        	android:id="@+id/buttonRefresh" 
+        	android:text="@string/buttonRefresh" 
+        	style="@style/buttonRefreshStyle" 
+        	android:layout_alignParentRight="true" />
+        	
+    </RelativeLayout>
+    
+    <ListView 
+    	android:id="@+id/listTweets" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent"
+    	android:drawSelectorOnTop="false"
+    	android:background="#FFFFFF" />
+    	
+</LinearLayout>
