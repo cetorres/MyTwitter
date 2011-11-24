@@ -6,9 +6,10 @@ Used on talks and trainings.
 
 Author: 
 Carlos Eugênio Torres <carlos.torres@cacira.com.br>
+http://cetorres.com
+http://cacira.com.br
 
 Main concepts covered on this project:
-
 * HTTP calls (GET) to the JSON Twitter API
 * JSON parsing
 * Interface building (widgets, styles, menus, drawables...)
