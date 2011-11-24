@@ -1,0 +1,21 @@
+MeuTwitter
+
+Description:
+A simple Twitter client for Android for educational use.
+Used on talks and trainings.
+
+Author: 
+Carlos Eugênio Torres <carlos.torres@cacira.com.br>
+
+Main concepts covered on this project:
+
+* HTTP calls (GET) to the JSON Twitter API
+* JSON parsing
+* Interface building (widgets, styles, menus, drawables...)
+* Listings (ListView, ListAdapter)
+* Asyncronous tasks using AsyncTask for async remote data loading
+* User preferences (Prefs)
+* Android manifest
+
+
+- Interface is now only in Portuguese language. English version is coming soon.
